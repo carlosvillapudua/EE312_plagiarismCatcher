@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Carlos Villapudua/CLionProjects/plagiarismCatcher__new/directory.cpp
+directory.h
+C:/Users/Carlos Villapudua/CLionProjects/plagiarismCatcher__new/directory.h
+
+C:/Users/Carlos Villapudua/CLionProjects/plagiarismCatcher__new/directory.h
+file.h
+C:/Users/Carlos Villapudua/CLionProjects/plagiarismCatcher__new/file.h
+dirent.h
+-
+errno.h
+-
+vector
+-
+string
+-
+iostream
+-
+fstream
+-
+
+C:/Users/Carlos Villapudua/CLionProjects/plagiarismCatcher__new/file.cpp
+file.h
+C:/Users/Carlos Villapudua/CLionProjects/plagiarismCatcher__new/file.h
+
+C:/Users/Carlos Villapudua/CLionProjects/plagiarismCatcher__new/file.h
+iostream
+-
+vector
+-
+string
+-
+
