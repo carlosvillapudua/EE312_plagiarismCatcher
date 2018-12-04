@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Carlos Villapudua/CLionProjects/plagiarismCatcher__new/directory.cpp
+C:/Users/Carlos Villapudua/CLionProjects/plagiarismCatcher__new/EE312_plagiarismCatcher/directory.cpp
 directory.h
-C:/Users/Carlos Villapudua/CLionProjects/plagiarismCatcher__new/directory.h
+C:/Users/Carlos Villapudua/CLionProjects/plagiarismCatcher__new/EE312_plagiarismCatcher/directory.h
 
-C:/Users/Carlos Villapudua/CLionProjects/plagiarismCatcher__new/directory.h
+C:/Users/Carlos Villapudua/CLionProjects/plagiarismCatcher__new/EE312_plagiarismCatcher/directory.h
 file.h
-C:/Users/Carlos Villapudua/CLionProjects/plagiarismCatcher__new/file.h
+C:/Users/Carlos Villapudua/CLionProjects/plagiarismCatcher__new/EE312_plagiarismCatcher/file.h
 dirent.h
 -
 errno.h
@@ -26,15 +26,33 @@ iostream
 fstream
 -
 
-C:/Users/Carlos Villapudua/CLionProjects/plagiarismCatcher__new/file.cpp
+C:/Users/Carlos Villapudua/CLionProjects/plagiarismCatcher__new/EE312_plagiarismCatcher/file.cpp
 file.h
-C:/Users/Carlos Villapudua/CLionProjects/plagiarismCatcher__new/file.h
+C:/Users/Carlos Villapudua/CLionProjects/plagiarismCatcher__new/EE312_plagiarismCatcher/file.h
 
-C:/Users/Carlos Villapudua/CLionProjects/plagiarismCatcher__new/file.h
+C:/Users/Carlos Villapudua/CLionProjects/plagiarismCatcher__new/EE312_plagiarismCatcher/file.h
 iostream
 -
 vector
 -
 string
+-
+
+C:/Users/Carlos Villapudua/CLionProjects/plagiarismCatcher__new/EE312_plagiarismCatcher/main.cpp
+file.h
+C:/Users/Carlos Villapudua/CLionProjects/plagiarismCatcher__new/EE312_plagiarismCatcher/file.h
+directory.h
+C:/Users/Carlos Villapudua/CLionProjects/plagiarismCatcher__new/EE312_plagiarismCatcher/directory.h
+dirent.h
+-
+errno.h
+-
+vector
+-
+string
+-
+iostream
+-
+fstream
 -
 

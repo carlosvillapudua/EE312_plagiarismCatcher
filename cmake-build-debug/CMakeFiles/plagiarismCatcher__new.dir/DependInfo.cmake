@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Carlos Villapudua/CLionProjects/plagiarismCatcher__new/directory.cpp" "C:/Users/Carlos Villapudua/CLionProjects/plagiarismCatcher__new/cmake-build-debug/CMakeFiles/plagiarismCatcher__new.dir/directory.cpp.obj"
-  "C:/Users/Carlos Villapudua/CLionProjects/plagiarismCatcher__new/file.cpp" "C:/Users/Carlos Villapudua/CLionProjects/plagiarismCatcher__new/cmake-build-debug/CMakeFiles/plagiarismCatcher__new.dir/file.cpp.obj"
-  "C:/Users/Carlos Villapudua/CLionProjects/plagiarismCatcher__new/main.cpp" "C:/Users/Carlos Villapudua/CLionProjects/plagiarismCatcher__new/cmake-build-debug/CMakeFiles/plagiarismCatcher__new.dir/main.cpp.obj"
+  "C:/Users/Carlos Villapudua/CLionProjects/plagiarismCatcher__new/EE312_plagiarismCatcher/directory.cpp" "C:/Users/Carlos Villapudua/CLionProjects/plagiarismCatcher__new/EE312_plagiarismCatcher/cmake-build-debug/CMakeFiles/plagiarismCatcher__new.dir/directory.cpp.obj"
+  "C:/Users/Carlos Villapudua/CLionProjects/plagiarismCatcher__new/EE312_plagiarismCatcher/file.cpp" "C:/Users/Carlos Villapudua/CLionProjects/plagiarismCatcher__new/EE312_plagiarismCatcher/cmake-build-debug/CMakeFiles/plagiarismCatcher__new.dir/file.cpp.obj"
+  "C:/Users/Carlos Villapudua/CLionProjects/plagiarismCatcher__new/EE312_plagiarismCatcher/main.cpp" "C:/Users/Carlos Villapudua/CLionProjects/plagiarismCatcher__new/EE312_plagiarismCatcher/cmake-build-debug/CMakeFiles/plagiarismCatcher__new.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

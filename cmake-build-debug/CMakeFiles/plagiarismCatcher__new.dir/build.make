@@ -42,10 +42,10 @@ RM = "C:\Program Files\JetBrains\CLion 2018.2.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\Carlos Villapudua\CLionProjects\plagiarismCatcher__new"
+CMAKE_SOURCE_DIR = "C:\Users\Carlos Villapudua\CLionProjects\plagiarismCatcher__new\EE312_plagiarismCatcher"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\Carlos Villapudua\CLionProjects\plagiarismCatcher__new\cmake-build-debug"
+CMAKE_BINARY_DIR = "C:\Users\Carlos Villapudua\CLionProjects\plagiarismCatcher__new\EE312_plagiarismCatcher\cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/plagiarismCatcher__new.dir/depend.make
@@ -58,42 +58,42 @@ include CMakeFiles/plagiarismCatcher__new.dir/flags.make
 
 CMakeFiles/plagiarismCatcher__new.dir/main.cpp.obj: CMakeFiles/plagiarismCatcher__new.dir/flags.make
 CMakeFiles/plagiarismCatcher__new.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Carlos Villapudua\CLionProjects\plagiarismCatcher__new\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/plagiarismCatcher__new.dir/main.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\plagiarismCatcher__new.dir\main.cpp.obj -c "C:\Users\Carlos Villapudua\CLionProjects\plagiarismCatcher__new\main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Carlos Villapudua\CLionProjects\plagiarismCatcher__new\EE312_plagiarismCatcher\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/plagiarismCatcher__new.dir/main.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\plagiarismCatcher__new.dir\main.cpp.obj -c "C:\Users\Carlos Villapudua\CLionProjects\plagiarismCatcher__new\EE312_plagiarismCatcher\main.cpp"
 
 CMakeFiles/plagiarismCatcher__new.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/plagiarismCatcher__new.dir/main.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Carlos Villapudua\CLionProjects\plagiarismCatcher__new\main.cpp" > CMakeFiles\plagiarismCatcher__new.dir\main.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Carlos Villapudua\CLionProjects\plagiarismCatcher__new\EE312_plagiarismCatcher\main.cpp" > CMakeFiles\plagiarismCatcher__new.dir\main.cpp.i
 
 CMakeFiles/plagiarismCatcher__new.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/plagiarismCatcher__new.dir/main.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Carlos Villapudua\CLionProjects\plagiarismCatcher__new\main.cpp" -o CMakeFiles\plagiarismCatcher__new.dir\main.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Carlos Villapudua\CLionProjects\plagiarismCatcher__new\EE312_plagiarismCatcher\main.cpp" -o CMakeFiles\plagiarismCatcher__new.dir\main.cpp.s
 
 CMakeFiles/plagiarismCatcher__new.dir/directory.cpp.obj: CMakeFiles/plagiarismCatcher__new.dir/flags.make
 CMakeFiles/plagiarismCatcher__new.dir/directory.cpp.obj: ../directory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Carlos Villapudua\CLionProjects\plagiarismCatcher__new\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/plagiarismCatcher__new.dir/directory.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\plagiarismCatcher__new.dir\directory.cpp.obj -c "C:\Users\Carlos Villapudua\CLionProjects\plagiarismCatcher__new\directory.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Carlos Villapudua\CLionProjects\plagiarismCatcher__new\EE312_plagiarismCatcher\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/plagiarismCatcher__new.dir/directory.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\plagiarismCatcher__new.dir\directory.cpp.obj -c "C:\Users\Carlos Villapudua\CLionProjects\plagiarismCatcher__new\EE312_plagiarismCatcher\directory.cpp"
 
 CMakeFiles/plagiarismCatcher__new.dir/directory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/plagiarismCatcher__new.dir/directory.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Carlos Villapudua\CLionProjects\plagiarismCatcher__new\directory.cpp" > CMakeFiles\plagiarismCatcher__new.dir\directory.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Carlos Villapudua\CLionProjects\plagiarismCatcher__new\EE312_plagiarismCatcher\directory.cpp" > CMakeFiles\plagiarismCatcher__new.dir\directory.cpp.i
 
 CMakeFiles/plagiarismCatcher__new.dir/directory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/plagiarismCatcher__new.dir/directory.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Carlos Villapudua\CLionProjects\plagiarismCatcher__new\directory.cpp" -o CMakeFiles\plagiarismCatcher__new.dir\directory.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Carlos Villapudua\CLionProjects\plagiarismCatcher__new\EE312_plagiarismCatcher\directory.cpp" -o CMakeFiles\plagiarismCatcher__new.dir\directory.cpp.s
 
 CMakeFiles/plagiarismCatcher__new.dir/file.cpp.obj: CMakeFiles/plagiarismCatcher__new.dir/flags.make
 CMakeFiles/plagiarismCatcher__new.dir/file.cpp.obj: ../file.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Carlos Villapudua\CLionProjects\plagiarismCatcher__new\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/plagiarismCatcher__new.dir/file.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\plagiarismCatcher__new.dir\file.cpp.obj -c "C:\Users\Carlos Villapudua\CLionProjects\plagiarismCatcher__new\file.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Carlos Villapudua\CLionProjects\plagiarismCatcher__new\EE312_plagiarismCatcher\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/plagiarismCatcher__new.dir/file.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\plagiarismCatcher__new.dir\file.cpp.obj -c "C:\Users\Carlos Villapudua\CLionProjects\plagiarismCatcher__new\EE312_plagiarismCatcher\file.cpp"
 
 CMakeFiles/plagiarismCatcher__new.dir/file.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/plagiarismCatcher__new.dir/file.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Carlos Villapudua\CLionProjects\plagiarismCatcher__new\file.cpp" > CMakeFiles\plagiarismCatcher__new.dir\file.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Carlos Villapudua\CLionProjects\plagiarismCatcher__new\EE312_plagiarismCatcher\file.cpp" > CMakeFiles\plagiarismCatcher__new.dir\file.cpp.i
 
 CMakeFiles/plagiarismCatcher__new.dir/file.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/plagiarismCatcher__new.dir/file.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Carlos Villapudua\CLionProjects\plagiarismCatcher__new\file.cpp" -o CMakeFiles\plagiarismCatcher__new.dir\file.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Carlos Villapudua\CLionProjects\plagiarismCatcher__new\EE312_plagiarismCatcher\file.cpp" -o CMakeFiles\plagiarismCatcher__new.dir\file.cpp.s
 
 # Object files for target plagiarismCatcher__new
 plagiarismCatcher__new_OBJECTS = \
@@ -111,7 +111,7 @@ plagiarismCatcher__new.exe: CMakeFiles/plagiarismCatcher__new.dir/build.make
 plagiarismCatcher__new.exe: CMakeFiles/plagiarismCatcher__new.dir/linklibs.rsp
 plagiarismCatcher__new.exe: CMakeFiles/plagiarismCatcher__new.dir/objects1.rsp
 plagiarismCatcher__new.exe: CMakeFiles/plagiarismCatcher__new.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Carlos Villapudua\CLionProjects\plagiarismCatcher__new\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable plagiarismCatcher__new.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Carlos Villapudua\CLionProjects\plagiarismCatcher__new\EE312_plagiarismCatcher\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable plagiarismCatcher__new.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\plagiarismCatcher__new.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -124,6 +124,6 @@ CMakeFiles/plagiarismCatcher__new.dir/clean:
 .PHONY : CMakeFiles/plagiarismCatcher__new.dir/clean
 
 CMakeFiles/plagiarismCatcher__new.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\Carlos Villapudua\CLionProjects\plagiarismCatcher__new" "C:\Users\Carlos Villapudua\CLionProjects\plagiarismCatcher__new" "C:\Users\Carlos Villapudua\CLionProjects\plagiarismCatcher__new\cmake-build-debug" "C:\Users\Carlos Villapudua\CLionProjects\plagiarismCatcher__new\cmake-build-debug" "C:\Users\Carlos Villapudua\CLionProjects\plagiarismCatcher__new\cmake-build-debug\CMakeFiles\plagiarismCatcher__new.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\Carlos Villapudua\CLionProjects\plagiarismCatcher__new\EE312_plagiarismCatcher" "C:\Users\Carlos Villapudua\CLionProjects\plagiarismCatcher__new\EE312_plagiarismCatcher" "C:\Users\Carlos Villapudua\CLionProjects\plagiarismCatcher__new\EE312_plagiarismCatcher\cmake-build-debug" "C:\Users\Carlos Villapudua\CLionProjects\plagiarismCatcher__new\EE312_plagiarismCatcher\cmake-build-debug" "C:\Users\Carlos Villapudua\CLionProjects\plagiarismCatcher__new\EE312_plagiarismCatcher\cmake-build-debug\CMakeFiles\plagiarismCatcher__new.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/plagiarismCatcher__new.dir/depend
 

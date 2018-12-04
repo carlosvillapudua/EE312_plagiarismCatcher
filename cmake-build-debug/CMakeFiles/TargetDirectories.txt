@@ -1,3 +1,3 @@
-C:/Users/Carlos Villapudua/CLionProjects/plagiarismCatcher__new/cmake-build-debug/CMakeFiles/plagiarismCatcher__new.dir
-C:/Users/Carlos Villapudua/CLionProjects/plagiarismCatcher__new/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Carlos Villapudua/CLionProjects/plagiarismCatcher__new/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Carlos Villapudua/CLionProjects/plagiarismCatcher__new/EE312_plagiarismCatcher/cmake-build-debug/CMakeFiles/plagiarismCatcher__new.dir
+C:/Users/Carlos Villapudua/CLionProjects/plagiarismCatcher__new/EE312_plagiarismCatcher/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Carlos Villapudua/CLionProjects/plagiarismCatcher__new/EE312_plagiarismCatcher/cmake-build-debug/CMakeFiles/rebuild_cache.dir

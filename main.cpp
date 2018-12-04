@@ -14,6 +14,7 @@ vector<string> processNWords(vector<string> &word, int n);
 
 int main()
 {
+    cout << "better off by Ari";
     string dir = string("sm_doc_set");
     vector<string> files = vector<string>();
     directory set;
