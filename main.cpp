@@ -7,6 +7,11 @@
 #include <iostream>
 #include <fstream>
 
+typedef struct node{
+    int index;
+    node* next;
+}node;
+
 
 using namespace std;
 void readFile(string& file);
@@ -62,6 +67,8 @@ int main()
 //    cout << word.size() << endl;
     // word.erase(&word);
 
+    strdFormat(chunk);
+
     for (int m = 0; m < chunk.size(); m++){
         cout << chunk[m] << endl;
     }
@@ -94,18 +101,31 @@ void strdFormat(vector<string> &chunk){
     string::iterator iter;
     string indChunk;
     int k;
+    bool punctDone = false;
 
 
     for (int i = 0; i < chunk.size(); i++){
         indChunk = chunk[i];
         for (int j = 0; j < indChunk.size(); j++){
-            if ( indChunk[j] >= 'A' && indChunk[j] <= 'Z' ){
-                k = int(indChunk[j]) + 32;
-                indChunk[j] = (char) k;
+                if (punctDone){
+                    j--;
+                    punctDone = false;
+                }
+
+                if ( indChunk[j] >= 'A' && indChunk[j] <= 'Z' ) {
+                    k = int(indChunk[j]) + 32;
+                    indChunk[j] = (char) k;
+                }
+
+                if ((indChunk[j] >= '!' && indChunk[j] <= '/') || (indChunk[j] >= ':' && indChunk[j] <= '@')
+                || (indChunk[j] >= '[' && indChunk[j] < 'a') || (indChunk[j] >= '{' && indChunk[j] <= '~')){
+
+                  indChunk.erase(j, 1);
+                  punctDone = true;
+
+                }
             }
-        }
-
-
+        chunk[i] = indChunk;
     }
 }
 
