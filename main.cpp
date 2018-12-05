@@ -6,29 +6,38 @@
 #include <string>
 #include <iostream>
 #include <fstream>
+#include <bits/stdc++.h>
 
 typedef struct node{
     int index;
     node* next;
 }node;
+#define hashSize 200003
 
 
 using namespace std;
 void readFile(string& file);
 vector<string> processNWords(vector<string> &word, int n);
 void strdFormat(vector<string> &chunk);
+unsigned long hashFunction(string chunk);
 
-int main()
-{
+int main(){
+
+    node hashTable[hashSize];
+
+
     string dir = string("sm_doc_set");
     vector<string> files = vector<string>();
     directory set;
     set.getdir(dir, files);                             //place text file names into address "files" points to
 
+    files.erase(files.begin(), files.begin()+2);
+
+
     for (unsigned int i = 0;i < files.size();i++) {
         cout << i << files[i] << endl;
     }
-//    readFile(files[0]);
+
 
 
 
@@ -42,36 +51,28 @@ int main()
         inFile.open(fileName);
         if (!inFile) {
             cout << "error opening file :(";
-            //exit(1); // terminate with error
         }
 
         while (inFile >> x) {
-//            essay = essay + x + "\n";
             word.push_back(x);
-
         }
 
         inFile.close();
-        //cout << "Essay = " << essay << endl;
     }
 
     vector <string> chunk;
-    int n = 2;
+    int n = 6;
     chunk = processNWords(word, n);                 //chunk is vector of all possible chunks in individual file
-//    for(int j = 0; j < word.size()-5; j++){
-//        for(int k = 0; k < 6; k++) {
-//            cout << word[j+k] << " ";
-//        }
-//        cout << "\n";
-//    }
-//    cout << word.size() << endl;
-    // word.erase(&word);
+
 
     strdFormat(chunk);
 
-    for (int m = 0; m < chunk.size(); m++){
-        cout << chunk[m] << endl;
-    }
+    unsigned long test = hashFunction("hellooWorldhello");
+    cout << test;
+
+//    for (int m = 0; m < chunk.size(); m++){
+//        cout << chunk[m] << endl;
+//    }
 
 
     return 0;
@@ -129,55 +130,12 @@ void strdFormat(vector<string> &chunk){
     }
 }
 
+unsigned long hashFunction(string chunk){
+     unsigned long retVal =0;
+     for (int i = 0; i < chunk.size()-1; i++){
+         retVal += chunk[chunk.size() - i - 1] * (31 * exp(i));
+     }
+     retVal = retVal % hashSize;
+     return retVal;
 
-/*function... might want it in some class?*/
-//int getdir (string dir, vector<string> &files)
-//{
-//    DIR *dp;
-//    struct dirent *dirp;
-//    if((dp  = opendir(dir.c_str())) == NULL) {
-//        cout << "Error(" << errno << ") opening " << dir << endl;
-//        return errno;
-//    }
-//
-//    while ((dirp = readdir(dp)) != NULL) {
-//        files.push_back(string(dirp->d_name));
-//    }
-//    closedir(dp);
-//    return 0;
-//}
-
-
-
-
-
-
-
-//void readFile(string& file){
-//    string sum = "";
-//    string x;
-//    ifstream inFile;
-//
-//    inFile.open(file);
-//    if (!inFile) {
-//        cout << "Unable to open file";
-//        exit(1); // terminate with error
-//    }
-//
-//    while (inFile >> x) {
-//        sum = sum + x;
-//    }
-//
-//    inFile.close();
-//    cout << "Sum = " << sum << endl;
-//
-//}
-
-
-
-
-
-
-
-
-
+}
