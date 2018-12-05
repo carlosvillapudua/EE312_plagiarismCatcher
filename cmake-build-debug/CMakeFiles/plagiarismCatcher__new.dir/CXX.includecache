@@ -6,55 +6,13 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Carlos Villapudua/CLionProjects/plagiarismCatcher__new/EE312_plagiarismCatcher/directory.h
-file.h
-C:/Users/Carlos Villapudua/CLionProjects/plagiarismCatcher__new/EE312_plagiarismCatcher/file.h
-dirent.h
--
-errno.h
--
-vector
--
-string
--
-iostream
--
-fstream
--
-
-C:/Users/Carlos Villapudua/CLionProjects/plagiarismCatcher__new/EE312_plagiarismCatcher/file.h
-iostream
--
-vector
--
-string
--
-
-C:/Users/Carlos Villapudua/CLionProjects/plagiarismCatcher__new/EE312_plagiarismCatcher/hashTable.h
-string
--
-bits/stdc++.h
--
-
-C:/Users/Carlos Villapudua/CLionProjects/plagiarismCatcher__new/EE312_plagiarismCatcher/main.cpp
-file.h
-C:/Users/Carlos Villapudua/CLionProjects/plagiarismCatcher__new/EE312_plagiarismCatcher/file.h
-directory.h
-C:/Users/Carlos Villapudua/CLionProjects/plagiarismCatcher__new/EE312_plagiarismCatcher/directory.h
-dirent.h
--
-errno.h
--
-vector
--
-string
--
-iostream
--
-fstream
--
-bits/stdc++.h
--
+C:/Users/Carlos Villapudua/CLionProjects/plagiarismCatcher__new/EE312_plagiarismCatcher/hashTable.cpp
 hashTable.h
 C:/Users/Carlos Villapudua/CLionProjects/plagiarismCatcher__new/EE312_plagiarismCatcher/hashTable.h
+
+C:/Users/Carlos Villapudua/CLionProjects/plagiarismCatcher__new/EE312_plagiarismCatcher/hashTable.h
+string
+-
+bits/stdc++.h
+-
 

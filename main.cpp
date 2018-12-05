@@ -66,7 +66,7 @@ int main(){
         strdFormat(chunk);
 
         for (int j = 0; j < chunk.size(); j++) {
-            unsigned long keyID = hashTable1.hashFunction(chunk[i]);
+            unsigned long keyID = hashTable1.hashFunction(chunk[j]);
             cout << keyID << endl;
         }
 

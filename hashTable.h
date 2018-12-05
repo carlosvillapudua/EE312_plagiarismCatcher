@@ -21,7 +21,7 @@ class hashTable {
 
     public:
         hashTable();
-        unsigned long hashFunction(string chunk);
+        unsigned long long hashFunction(string chunk);
         void insert(unsigned long keyID, int fileID);
     private:
         node hashArray[hashSize];

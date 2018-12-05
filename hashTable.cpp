@@ -11,10 +11,11 @@ hashTable::hashTable(){
     }
 }
 
-unsigned long hashTable::hashFunction(string chunk){
-    unsigned long retVal =0;
+unsigned long long hashTable::hashFunction(string chunk){
+    unsigned long long retVal =0;
     for (int i = 0; i < chunk.size()-1; i++){
         retVal += chunk[chunk.size() - i - 1] * (31 * exp(i));
+        retVal = retVal % hashSize;
     }
     retVal = retVal % hashSize;
     return retVal;
