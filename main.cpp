@@ -89,19 +89,25 @@ vector<string> processNWords(vector<string> &word, int n){
     return retString;
 }
 
-//
-//void strdFormat(vector<string> &chunk){
-//    string::iterator iter;
-//    string& indChunk;
-//
-//
-//    for (int i = 0; i < chunk.size(); i++){
-//        indChunk = chunk[i];
-//        char* Letter = indChunk.c_str();
-//
-//
-//    }
-//}
+
+void strdFormat(vector<string> &chunk){
+    string::iterator iter;
+    string indChunk;
+    int k;
+
+
+    for (int i = 0; i < chunk.size(); i++){
+        indChunk = chunk[i];
+        for (int j = 0; j < indChunk.size(); j++){
+            if ( indChunk[j] >= 'A' && indChunk[j] <= 'Z' ){
+                k = int(indChunk[j]) + 32;
+                indChunk[j] = (char) k;
+            }
+        }
+
+
+    }
+}
 
 
 /*function... might want it in some class?*/
