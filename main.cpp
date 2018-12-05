@@ -7,11 +7,8 @@
 #include <iostream>
 #include <fstream>
 #include <bits/stdc++.h>
+#include "hashTable.h"
 
-typedef struct node{
-    int index;
-    node* next;
-}node;
 #define hashSize 200003
 
 
@@ -23,8 +20,7 @@ unsigned long hashFunction(string chunk);
 
 int main(){
 
-    node hashTable[hashSize];
-
+    hashTable hashTable1;
 
     string dir = string("sm_doc_set");
     vector<string> files = vector<string>();
@@ -32,6 +28,8 @@ int main(){
     set.getdir(dir, files);                             //place text file names into address "files" points to
 
     files.erase(files.begin(), files.begin()+2);
+
+
 
 
     for (unsigned int i = 0;i < files.size();i++) {
@@ -47,7 +45,7 @@ int main(){
     vector<string> word;
 
     for (unsigned int i = 0; i < files.size();i++) {
-        string fileName ="sm_doc_set/" + files[i];
+        string fileName = "sm_doc_set/" + files[i];
         inFile.open(fileName);
         if (!inFile) {
             cout << "error opening file :(";
@@ -58,23 +56,26 @@ int main(){
         }
 
         inFile.close();
+
+
+        vector<string> chunk;
+        int n = 6;
+        chunk = processNWords(word, n);                 //chunk is vector of all possible chunks in individual file
+
+
+        strdFormat(chunk);
+
+        for (int j = 0; j < chunk.size(); j++) {
+            unsigned long keyID = hashTable1.hashFunction(chunk[i]);
+            cout << keyID << endl;
+        }
+
+//        for (int m = 0; m < chunk.size(); m++) {
+//            cout << chunk[m] << endl;
+//        }
+//        word.clear();
+    cout << "------------------------------------------";
     }
-
-    vector <string> chunk;
-    int n = 6;
-    chunk = processNWords(word, n);                 //chunk is vector of all possible chunks in individual file
-
-
-    strdFormat(chunk);
-
-    unsigned long test = hashFunction("hellooWorldhello");
-    cout << test;
-
-//    for (int m = 0; m < chunk.size(); m++){
-//        cout << chunk[m] << endl;
-//    }
-
-
     return 0;
 }
 
@@ -137,5 +138,4 @@ unsigned long hashFunction(string chunk){
      }
      retVal = retVal % hashSize;
      return retVal;
-
 }

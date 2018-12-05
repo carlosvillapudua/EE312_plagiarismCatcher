@@ -94,6 +94,12 @@
 		<Unit filename="C:/Users/Carlos Villapudua/CLionProjects/plagiarismCatcher__new/EE312_plagiarismCatcher/file.h">
 			<Option target="plagiarismCatcher__new"/>
 		</Unit>
+		<Unit filename="C:/Users/Carlos Villapudua/CLionProjects/plagiarismCatcher__new/EE312_plagiarismCatcher/hashTable.cpp">
+			<Option target="plagiarismCatcher__new"/>
+		</Unit>
+		<Unit filename="C:/Users/Carlos Villapudua/CLionProjects/plagiarismCatcher__new/EE312_plagiarismCatcher/hashTable.h">
+			<Option target="plagiarismCatcher__new"/>
+		</Unit>
 		<Unit filename="C:/Users/Carlos Villapudua/CLionProjects/plagiarismCatcher__new/EE312_plagiarismCatcher/main.cpp">
 			<Option target="plagiarismCatcher__new"/>
 		</Unit>

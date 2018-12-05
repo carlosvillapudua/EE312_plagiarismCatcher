@@ -30,6 +30,12 @@ vector
 string
 -
 
+C:/Users/Carlos Villapudua/CLionProjects/plagiarismCatcher__new/EE312_plagiarismCatcher/hashTable.h
+string
+-
+bits/stdc++.h
+-
+
 C:/Users/Carlos Villapudua/CLionProjects/plagiarismCatcher__new/EE312_plagiarismCatcher/main.cpp
 file.h
 C:/Users/Carlos Villapudua/CLionProjects/plagiarismCatcher__new/EE312_plagiarismCatcher/file.h
@@ -49,4 +55,6 @@ fstream
 -
 bits/stdc++.h
 -
+hashTable.h
+C:/Users/Carlos Villapudua/CLionProjects/plagiarismCatcher__new/EE312_plagiarismCatcher/hashTable.h
 

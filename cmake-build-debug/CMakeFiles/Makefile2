@@ -70,7 +70,7 @@ CMAKE_BINARY_DIR = "C:\Users\Carlos Villapudua\CLionProjects\plagiarismCatcher__
 CMakeFiles/plagiarismCatcher__new.dir/all:
 	$(MAKE) -f CMakeFiles\plagiarismCatcher__new.dir\build.make CMakeFiles/plagiarismCatcher__new.dir/depend
 	$(MAKE) -f CMakeFiles\plagiarismCatcher__new.dir\build.make CMakeFiles/plagiarismCatcher__new.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\Carlos Villapudua\CLionProjects\plagiarismCatcher__new\EE312_plagiarismCatcher\cmake-build-debug\CMakeFiles" --progress-num=1,2,3,4 "Built target plagiarismCatcher__new"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\Carlos Villapudua\CLionProjects\plagiarismCatcher__new\EE312_plagiarismCatcher\cmake-build-debug\CMakeFiles" --progress-num=1,2,3,4,5 "Built target plagiarismCatcher__new"
 .PHONY : CMakeFiles/plagiarismCatcher__new.dir/all
 
 # Include target in all.
@@ -80,7 +80,7 @@ all: CMakeFiles/plagiarismCatcher__new.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/plagiarismCatcher__new.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Carlos Villapudua\CLionProjects\plagiarismCatcher__new\EE312_plagiarismCatcher\cmake-build-debug\CMakeFiles" 4
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Carlos Villapudua\CLionProjects\plagiarismCatcher__new\EE312_plagiarismCatcher\cmake-build-debug\CMakeFiles" 5
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/plagiarismCatcher__new.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Carlos Villapudua\CLionProjects\plagiarismCatcher__new\EE312_plagiarismCatcher\cmake-build-debug\CMakeFiles" 0
 .PHONY : CMakeFiles/plagiarismCatcher__new.dir/rule

@@ -8,7 +8,11 @@ CMakeFiles/plagiarismCatcher__new.dir/directory.cpp.obj: ../file.h
 CMakeFiles/plagiarismCatcher__new.dir/file.cpp.obj: ../file.cpp
 CMakeFiles/plagiarismCatcher__new.dir/file.cpp.obj: ../file.h
 
+CMakeFiles/plagiarismCatcher__new.dir/hashTable.cpp.obj: ../hashTable.cpp
+CMakeFiles/plagiarismCatcher__new.dir/hashTable.cpp.obj: ../hashTable.h
+
 CMakeFiles/plagiarismCatcher__new.dir/main.cpp.obj: ../directory.h
 CMakeFiles/plagiarismCatcher__new.dir/main.cpp.obj: ../file.h
+CMakeFiles/plagiarismCatcher__new.dir/main.cpp.obj: ../hashTable.h
 CMakeFiles/plagiarismCatcher__new.dir/main.cpp.obj: ../main.cpp
 

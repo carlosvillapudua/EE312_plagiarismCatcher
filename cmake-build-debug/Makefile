@@ -176,6 +176,33 @@ file.cpp.s:
 	$(MAKE) -f CMakeFiles\plagiarismCatcher__new.dir\build.make CMakeFiles/plagiarismCatcher__new.dir/file.cpp.s
 .PHONY : file.cpp.s
 
+hashTable.obj: hashTable.cpp.obj
+
+.PHONY : hashTable.obj
+
+# target to build an object file
+hashTable.cpp.obj:
+	$(MAKE) -f CMakeFiles\plagiarismCatcher__new.dir\build.make CMakeFiles/plagiarismCatcher__new.dir/hashTable.cpp.obj
+.PHONY : hashTable.cpp.obj
+
+hashTable.i: hashTable.cpp.i
+
+.PHONY : hashTable.i
+
+# target to preprocess a source file
+hashTable.cpp.i:
+	$(MAKE) -f CMakeFiles\plagiarismCatcher__new.dir\build.make CMakeFiles/plagiarismCatcher__new.dir/hashTable.cpp.i
+.PHONY : hashTable.cpp.i
+
+hashTable.s: hashTable.cpp.s
+
+.PHONY : hashTable.s
+
+# target to generate assembly for a file
+hashTable.cpp.s:
+	$(MAKE) -f CMakeFiles\plagiarismCatcher__new.dir\build.make CMakeFiles/plagiarismCatcher__new.dir/hashTable.cpp.s
+.PHONY : hashTable.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -218,6 +245,9 @@ help:
 	@echo ... file.obj
 	@echo ... file.i
 	@echo ... file.s
+	@echo ... hashTable.obj
+	@echo ... hashTable.i
+	@echo ... hashTable.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
