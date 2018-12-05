@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Carlos Villapudua/CLionProjects/plagiarismCatcher__new/EE312_plagiarismCatcher/directory.cpp
-directory.h
-C:/Users/Carlos Villapudua/CLionProjects/plagiarismCatcher__new/EE312_plagiarismCatcher/directory.h
-
 C:/Users/Carlos Villapudua/CLionProjects/plagiarismCatcher__new/EE312_plagiarismCatcher/directory.h
 file.h
 C:/Users/Carlos Villapudua/CLionProjects/plagiarismCatcher__new/EE312_plagiarismCatcher/file.h
@@ -25,10 +21,6 @@ iostream
 -
 fstream
 -
-
-C:/Users/Carlos Villapudua/CLionProjects/plagiarismCatcher__new/EE312_plagiarismCatcher/file.cpp
-file.h
-C:/Users/Carlos Villapudua/CLionProjects/plagiarismCatcher__new/EE312_plagiarismCatcher/file.h
 
 C:/Users/Carlos Villapudua/CLionProjects/plagiarismCatcher__new/EE312_plagiarismCatcher/file.h
 iostream

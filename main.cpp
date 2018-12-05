@@ -11,14 +11,14 @@
 using namespace std;
 void readFile(string& file);
 vector<string> processNWords(vector<string> &word, int n);
+void strdFormat(vector<string> &chunk);
 
 int main()
 {
-    cout << "better off by Ari";
     string dir = string("sm_doc_set");
     vector<string> files = vector<string>();
     directory set;
-    set.getdir(dir, files);                     //place text file names into address "files" points to
+    set.getdir(dir, files);                             //place text file names into address "files" points to
 
     for (unsigned int i = 0;i < files.size();i++) {
         cout << i << files[i] << endl;
@@ -52,7 +52,7 @@ int main()
 
     vector <string> chunk;
     int n = 2;
-    chunk = processNWords(word, n);
+    chunk = processNWords(word, n);                 //chunk is vector of all possible chunks in individual file
 //    for(int j = 0; j < word.size()-5; j++){
 //        for(int k = 0; k < 6; k++) {
 //            cout << word[j+k] << " ";
@@ -87,10 +87,21 @@ vector<string> processNWords(vector<string> &word, int n){
 
 
     return retString;
-
-
-
 }
+
+//
+//void strdFormat(vector<string> &chunk){
+//    string::iterator iter;
+//    string& indChunk;
+//
+//
+//    for (int i = 0; i < chunk.size(); i++){
+//        indChunk = chunk[i];
+//        char* Letter = indChunk.c_str();
+//
+//
+//    }
+//}
 
 
 /*function... might want it in some class?*/
