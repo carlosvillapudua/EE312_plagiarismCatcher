@@ -12,18 +12,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b44d809c-374c-4d0b-973f-631f09891de9" name="Default Changelist" comment="added new stuff">
-      <change afterPath="$PROJECT_DIR$/README.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/plagiarismCatcher__new.dir/directory.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/plagiarismCatcher__new.dir/directory.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/plagiarismCatcher__new.dir/hashTable.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/plagiarismCatcher__new.dir/hashTable.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/plagiarismCatcher__new.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/plagiarismCatcher__new.dir/main.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/plagiarismCatcher__new.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/plagiarismCatcher__new.dir/objects.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/plagiarismCatcher__new.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/plagiarismCatcher__new.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/directory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/directory.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/directory.h" beforeDir="false" afterPath="$PROJECT_DIR$/directory.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hashTable.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/hashTable.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hashTable.h" beforeDir="false" afterPath="$PROJECT_DIR$/hashTable.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/README.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/makefile" beforeDir="false" afterPath="$PROJECT_DIR$/makefile" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -96,14 +86,14 @@
           <entry key="cpp" value="5992" />
           <entry key="h" value="1410" />
           <entry key="m" value="15" />
-          <entry key="makefile" value="106" />
+          <entry key="makefile" value="109" />
           <entry key="txt" value="569" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="ObjectiveC" value="7417" />
-          <entry key="PLAIN_TEXT" value="675" />
+          <entry key="PLAIN_TEXT" value="678" />
         </counts>
       </usages-collector>
     </session>
@@ -155,8 +145,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="28" column="66" lean-forward="true" selection-start-line="28" selection-start-column="66" selection-end-line="28" selection-end-column="66" />
+            <state relative-caret-position="269">
+              <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -185,8 +175,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/makefile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="17">
+              <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -228,12 +218,12 @@
         <option value="$PROJECT_DIR$/file.h" />
         <option value="$PROJECT_DIR$/EE312_plagiarismCatcher/main.cpp" />
         <option value="$PROJECT_DIR$/EE312_plagiarismCatcher/file.h" />
-        <option value="$PROJECT_DIR$/makefile" />
         <option value="$PROJECT_DIR$/directory.cpp" />
         <option value="$PROJECT_DIR$/directory.h" />
         <option value="$PROJECT_DIR$/hashTable.cpp" />
         <option value="$PROJECT_DIR$/hashTable.h" />
         <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/makefile" />
         <option value="$PROJECT_DIR$/README.txt" />
       </list>
     </option>
@@ -245,7 +235,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1905" />
     <option name="width" value="1948" />
     <option name="height" value="2075" />
@@ -317,7 +307,7 @@
       <updated>1543905247249</updated>
       <workItem from="1543905248965" duration="480000" />
       <workItem from="1543905771119" duration="418000" />
-      <workItem from="1543906369362" duration="45964000" />
+      <workItem from="1543906369362" duration="46072000" />
     </task>
     <task id="LOCAL-00001" summary="added (but not finished) function to standardize caps/punctuation">
       <created>1543973991738</created>
@@ -337,7 +327,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46862000" />
+    <option name="totallyTimeSpent" value="46970000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
@@ -454,13 +444,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/makefile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/directory.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -536,10 +519,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="28" column="66" lean-forward="true" selection-start-line="28" selection-start-column="66" selection-end-line="28" selection-end-column="66" />
+        <state relative-caret-position="269">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
         </state>
       </provider>
     </entry>
