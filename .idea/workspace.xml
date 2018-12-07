@@ -12,14 +12,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b44d809c-374c-4d0b-973f-631f09891de9" name="Default Changelist" comment="added new stuff">
+      <change afterPath="$PROJECT_DIR$/README.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.0/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.0/CompilerIdCXX/a.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/plagiarismCatcher__new.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/plagiarismCatcher__new.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/plagiarismCatcher__new.dir/directory.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/plagiarismCatcher__new.dir/directory.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/plagiarismCatcher__new.dir/hashTable.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/plagiarismCatcher__new.dir/hashTable.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/plagiarismCatcher__new.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/plagiarismCatcher__new.dir/main.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/plagiarismCatcher__new.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/plagiarismCatcher__new.dir/objects.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/plagiarismCatcher__new.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/plagiarismCatcher__new.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/directory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/directory.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/directory.h" beforeDir="false" afterPath="$PROJECT_DIR$/directory.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hashTable.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/hashTable.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hashTable.h" beforeDir="false" afterPath="$PROJECT_DIR$/hashTable.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
@@ -75,33 +76,34 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="c" value="2" />
-          <entry key="cpp" value="4" />
-          <entry key="h" value="7" />
+          <entry key="cpp" value="7" />
+          <entry key="h" value="11" />
           <entry key="makefile" value="1" />
           <entry key="new" value="1" />
           <entry key="plagiarismCatcher__new (disassembly)" value="4" />
+          <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Disassembly" value="4" />
-          <entry key="ObjectiveC" value="14" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="ObjectiveC" value="21" />
+          <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="4363" />
-          <entry key="h" value="396" />
+          <entry key="cpp" value="5992" />
+          <entry key="h" value="1410" />
           <entry key="m" value="15" />
           <entry key="makefile" value="106" />
-          <entry key="txt" value="85" />
+          <entry key="txt" value="569" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="ObjectiveC" value="4774" />
-          <entry key="PLAIN_TEXT" value="191" />
+          <entry key="ObjectiveC" value="7417" />
+          <entry key="PLAIN_TEXT" value="675" />
         </counts>
       </usages-collector>
     </session>
@@ -109,28 +111,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/directory.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/directory.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-72">
-              <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hashTable.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="298">
+              <caret line="64" column="21" lean-forward="true" selection-start-line="64" selection-start-column="21" selection-end-line="64" selection-end-column="21" />
               <folding>
                 <element signature="e#162#179#0" expanded="true" />
               </folding>
@@ -139,13 +123,61 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../UtPod/EE312_UtPod-master/UtPod.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3545">
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../UtPod/EE312_UtPod-master/UtPod.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2950" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="122" column="9" lean-forward="true" selection-start-line="122" selection-start-column="9" selection-end-line="122" selection-end-column="9" />
+            <state relative-caret-position="136">
+              <caret line="143" column="18" selection-start-line="143" selection-start-column="18" selection-end-line="143" selection-end-column="18" />
               <folding>
-                <element signature="e#0#17#0" expanded="true" />
+                <element signature="e#8#25#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="303">
+              <caret line="28" column="66" lean-forward="true" selection-start-line="28" selection-start-column="66" selection-end-line="28" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/file.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+              <folding>
+                <element signature="e#119#138#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/file.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -160,28 +192,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../Life/life_driver.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="40" column="31" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../Life/life.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hashTable.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="80" column="20" selection-start-line="80" selection-start-column="20" selection-end-line="80" selection-end-column="20" />
+            <state relative-caret-position="280">
+              <caret line="89" column="1" lean-forward="true" selection-start-line="89" selection-start-column="1" selection-end-line="89" selection-end-column="1" />
               <folding>
                 <element signature="e#53#75#0" expanded="true" />
               </folding>
@@ -199,10 +213,10 @@
       <find>0</find>
       <find>malloc</find>
       <find>insert</find>
-      <find>directory</find>
       <find>erase</find>
-      <find>findNeigh</find>
       <find>minSim</find>
+      <find>findNeigh</find>
+      <find>directory</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -211,15 +225,16 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/directory.cpp" />
         <option value="$PROJECT_DIR$/file.h" />
         <option value="$PROJECT_DIR$/EE312_plagiarismCatcher/main.cpp" />
         <option value="$PROJECT_DIR$/EE312_plagiarismCatcher/file.h" />
-        <option value="$PROJECT_DIR$/directory.h" />
         <option value="$PROJECT_DIR$/makefile" />
-        <option value="$PROJECT_DIR$/hashTable.h" />
+        <option value="$PROJECT_DIR$/directory.cpp" />
+        <option value="$PROJECT_DIR$/directory.h" />
         <option value="$PROJECT_DIR$/hashTable.cpp" />
+        <option value="$PROJECT_DIR$/hashTable.h" />
         <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/README.txt" />
       </list>
     </option>
   </component>
@@ -230,8 +245,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-15" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="1905" />
     <option name="width" value="1948" />
     <option name="height" value="2075" />
   </component>
@@ -257,7 +272,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../UtPod/EE312_UtPod-master/UtPod.h" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
@@ -280,7 +295,7 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="plagiarismCatcher__new" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="sm_doc_set/ 6 200" PASS_PARENT_ENVS_2="true" PROJECT_NAME="plagiarismCatcher__new" TARGET_NAME="plagiarismCatcher__new" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="plagiarismCatcher__new" RUN_TARGET_NAME="plagiarismCatcher__new">
+    <configuration name="plagiarismCatcher__new" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="sm_doc_set 6 200" PASS_PARENT_ENVS_2="true" PROJECT_NAME="plagiarismCatcher__new" TARGET_NAME="plagiarismCatcher__new" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="plagiarismCatcher__new" RUN_TARGET_NAME="plagiarismCatcher__new">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -302,7 +317,7 @@
       <updated>1543905247249</updated>
       <workItem from="1543905248965" duration="480000" />
       <workItem from="1543905771119" duration="418000" />
-      <workItem from="1543906369362" duration="41071000" />
+      <workItem from="1543906369362" duration="45964000" />
     </task>
     <task id="LOCAL-00001" summary="added (but not finished) function to standardize caps/punctuation">
       <created>1543973991738</created>
@@ -322,18 +337,18 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41969000" />
+    <option name="totallyTimeSpent" value="46862000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16230717" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16230717" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.13295615" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.38755304" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5558699" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -386,27 +401,10 @@
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/file.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="e#119#138#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/EE312_plagiarismCatcher/directory.h" />
     <entry file="file://$PROJECT_DIR$/EE312_plagiarismCatcher/main.cpp" />
     <entry file="file://$PROJECT_DIR$/EE312_plagiarismCatcher/file.cpp" />
     <entry file="file://$PROJECT_DIR$/EE312_plagiarismCatcher/file.h" />
-    <entry file="file://$PROJECT_DIR$/file.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/alloc_traits.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="137">
@@ -442,24 +440,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/directory.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/directory.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-72">
-          <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../Life/life.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
           <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Life/life_driver.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="40" column="31" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -470,40 +461,85 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/directory.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="23" column="4" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="26" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/directory.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../UtPod/EE312_UtPod-master/UtPod.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2950" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/hashTable.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="298">
+          <caret line="64" column="21" lean-forward="true" selection-start-line="64" selection-start-column="21" selection-end-line="64" selection-end-column="21" />
           <folding>
             <element signature="e#162#179#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../Life/life_driver.c">
+    <entry file="file://$PROJECT_DIR$/../../UtPod/EE312_UtPod-master/UtPod.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="40" column="31" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="122" column="9" lean-forward="true" selection-start-line="122" selection-start-column="9" selection-end-line="122" selection-end-column="9" />
+        <state relative-caret-position="-3545">
           <folding>
-            <element signature="e#0#17#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hashTable.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="80" column="20" selection-start-line="80" selection-start-column="20" selection-end-line="80" selection-end-column="20" />
+        <state relative-caret-position="280">
+          <caret line="89" column="1" lean-forward="true" selection-start-line="89" selection-start-column="1" selection-end-line="89" selection-end-column="1" />
           <folding>
             <element signature="e#53#75#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="143" column="18" selection-start-line="143" selection-start-column="18" selection-end-line="143" selection-end-column="18" />
+          <folding>
+            <element signature="e#8#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#119#138#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="28" column="66" lean-forward="true" selection-start-line="28" selection-start-column="66" selection-end-line="28" selection-end-column="66" />
         </state>
       </provider>
     </entry>

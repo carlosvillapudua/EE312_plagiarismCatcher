@@ -1,6 +1,9 @@
-//
-// Created by Carlos Villapudua on 12/5/2018.
-//
+/*
+ *
+ * Created by Jaime Tan Leon (jt39777) & Carlos Villapudua (civ298)
+ * Last Edited: 12/7/18
+ *
+ * */
 
 #include "hashTable.h"
 #include <math.h>
@@ -80,4 +83,8 @@ void hashTable::deleteNodes(){
         }
         delete temp;
     }
+}
+
+hashTable::~hashTable(){
+    deleteNodes();
 }
