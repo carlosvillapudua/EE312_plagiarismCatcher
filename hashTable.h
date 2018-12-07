@@ -22,9 +22,11 @@ class hashTable {
     public:
         hashTable();
         unsigned long long hashFunction(string chunk);
-        void insert(unsigned long keyID, int fileID);
+        void insert(unsigned long long keyID, int fileID);
+        void countCheaters(int* cheat[]);
+        void deleteNodes();
     private:
-        node hashArray[hashSize];
+        node* hashArray[hashSize];
 
 
 

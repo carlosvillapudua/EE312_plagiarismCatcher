@@ -8,6 +8,10 @@
 #include <fstream>
 #include <bits/stdc++.h>
 #include "hashTable.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdbool.h>
+#include <string.h>
 
 #define hashSize 200003
 
@@ -18,19 +22,16 @@ vector<string> processNWords(vector<string> &word, int n);
 void strdFormat(vector<string> &chunk);
 unsigned long hashFunction(string chunk);
 
-int main(){
-
+int main(int argc, char *argv[]){
+    int numSim = 200;
     hashTable hashTable1;
-
-    string dir = string("sm_doc_set");
+//    string dir = string("sm_doc_set");
+    string dir = string(argv[1]);
     vector<string> files = vector<string>();
     directory set;
     set.getdir(dir, files);                             //place text file names into address "files" points to
 
     files.erase(files.begin(), files.begin()+2);
-
-
-
 
     for (unsigned int i = 0;i < files.size();i++) {
         cout << i << files[i] << endl;
@@ -45,8 +46,8 @@ int main(){
     vector<string> word;
 
     for (unsigned int i = 0; i < files.size();i++) {
-        string fileName = "sm_doc_set/" + files[i];
-        inFile.open(fileName);
+        string fileName = dir + files[i];
+        inFile.open(fileName.c_str());
         if (!inFile) {
             cout << "error opening file :(";
         }
@@ -59,27 +60,71 @@ int main(){
 
 
         vector<string> chunk;
-        int n = 6;
+        int n = atoi(argv[2]);
         chunk = processNWords(word, n);                 //chunk is vector of all possible chunks in individual file
 
 
         strdFormat(chunk);
 
         for (int j = 0; j < chunk.size(); j++) {
-            unsigned long keyID = hashTable1.hashFunction(chunk[j]);
-            cout << keyID << endl;
+            unsigned long long keyID = hashTable1.hashFunction(chunk[j]);
+            hashTable1.insert(keyID, i);
+            //cout << keyID << endl;
         }
+
+
 
 //        for (int m = 0; m < chunk.size(); m++) {
 //            cout << chunk[m] << endl;
 //        }
-//        word.clear();
-    cout << "------------------------------------------";
+        word.clear();
+    //cout << "------------------------------------------";
     }
+    //int *cheat[files.size()][files.size()];
+
+    int *cheat[files.size()];
+
+    for (int k = 0; k < files.size(); k++) {
+        cheat[k] = new int[files.size()];
+    }
+
+
+    for (int k = 0; k < files.size(); k++){
+        for (int m = 0; m < files.size(); m++){
+            cheat[k][m] = 0;
+           //cout << cheat[k][m];
+        }
+    }
+
+
+
+    hashTable1.countCheaters(cheat);
+
+//    for (int k = 0; k < files.size(); k++){
+//        for (int m = 0; m < files.size(); m++){
+//
+//            cout << cheat[k][m] << " ";
+//        }
+//        cout << endl;
+//    }
+
+    for (int k = 0; k < files.size(); k++){
+        for (int m = 0; m < files.size(); m++) {
+            if(cheat[k][m] >= atoi(argv[3])){
+                cout << cheat[k][m] << ":" << files[k] << "," << files[m] << endl;
+            }
+        }
+    }
+
+    hashTable1.deleteNodes();
+    for (int k = 0; k < files.size(); k++) {
+        for (int m = 0; m < files.size(); m++) {
+            delete cheat[k];
+        }
+    }
+
     return 0;
 }
-
-
 
 vector<string> processNWords(vector<string> &word, int n){
     vector<string> retString;
@@ -97,7 +142,6 @@ vector<string> processNWords(vector<string> &word, int n){
 
     return retString;
 }
-
 
 void strdFormat(vector<string> &chunk){
     string::iterator iter;
@@ -122,20 +166,11 @@ void strdFormat(vector<string> &chunk){
                 if ((indChunk[j] >= '!' && indChunk[j] <= '/') || (indChunk[j] >= ':' && indChunk[j] <= '@')
                 || (indChunk[j] >= '[' && indChunk[j] < 'a') || (indChunk[j] >= '{' && indChunk[j] <= '~')){
 
-                  indChunk.erase(j, 1);
-                  punctDone = true;
+                  //indChunk.erase(j, 1);
+                  //punctDone = true;
 
                 }
             }
         chunk[i] = indChunk;
     }
-}
-
-unsigned long hashFunction(string chunk){
-     unsigned long retVal =0;
-     for (int i = 0; i < chunk.size()-1; i++){
-         retVal += chunk[chunk.size() - i - 1] * (31 * exp(i));
-     }
-     retVal = retVal % hashSize;
-     return retVal;
 }
